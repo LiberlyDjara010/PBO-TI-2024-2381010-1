@@ -6,13 +6,13 @@ public class TipeDataArray {
 
         //cara memasukan value ka array
         kumpulanNumber[0] = 100;
-        kumpulanNumber[1] = "Liberly";
-        kumpulanNumber[2] = 200L;
+        kumpulanNumber[1] = 200;
+        kumpulanNumber[2] = 300;
 
         //cara mengakses
-        System.out.println(kumpulanNumber[0]);
+        System.out.println(kumpulanNumber[1]);
 
         //length
-        System.out.println(kumpulanNumber.length);
+        System.out.println(kumpulanNumber[0]);
     }
 }
